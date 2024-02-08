@@ -3,6 +3,13 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+import functions
+import time
+
+now = time.strftime("%b, %d, %Y %H:%M:%S")
+print("The time is below:")
+print("It is", now)
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
